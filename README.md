@@ -1,0 +1,2 @@
+# PlayFabServerSample
+AzurePlayFab専用サーバープロジェクト
