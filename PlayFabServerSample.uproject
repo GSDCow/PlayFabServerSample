@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{A69826C8-4C9A-7190-BDC5-778D8F728226}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "PlayFabServerSample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "PlayFabGSDK",
+			"Enabled": true
+		}
+	]
+}
