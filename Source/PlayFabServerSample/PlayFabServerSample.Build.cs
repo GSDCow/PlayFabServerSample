@@ -13,6 +13,7 @@ public class PlayFabServerSample : ModuleRules
 			"CoreUObject", 
 			"Engine", 
 			"InputCore",
+			"UMG",
 			"PlayFabGSDK" //Add
 		});
 

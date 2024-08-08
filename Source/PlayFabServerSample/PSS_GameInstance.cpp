@@ -6,6 +6,8 @@
 
 void UPSS_GameInstance::Init()
 {
+	Super::Init();
+
 	if (IsDedicatedServerInstance() == true)
 	{
 		FOnGSDKShutdown_Dyn OnGsdkShutdown;
